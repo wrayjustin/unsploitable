@@ -1,0 +1,12 @@
+custom.db: Custom Patches DB, The File To Add Personal Patch Entries
+download_updates.sh: Download Windows Updates For Offline Patching/Unsploitable
+FILES: THIS FILE
+install.sh: Installs The Requires Unsploitable Files
+launch.sh:  Launches Unsploitable
+LICENSE:  GPLv3
+patches:  Patches Directory - Place All Patches, Tools, Etc, Uploaded By Unsploitabe
+patches.db:  Crowd-Sourced Patches DB, Don't Edit This One, Add Personal Entries To custom.db
+prereq.db:  Patch Prerequisites, Like Installers, Stagers, Etc.
+README:  Brief Information About Unsploitable
+unsploitable.rb:  Ruby Metasploit Plugin
+update.sh:  Unsploitable Updater

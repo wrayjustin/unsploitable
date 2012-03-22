@@ -1,0 +1,7 @@
+##  Custom Patch Database for Unsploitable
+##
+##	Format:  ExploitName|OS|PatchLevel|Arch|PatchFilename|KB|CVE|MS-SB
+##
+##  This file is for your custom patches, edit as you see fit.
+##
+

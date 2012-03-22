@@ -1,0 +1,2 @@
+load unmetasploitable
+set AutoLoadStdapi false
