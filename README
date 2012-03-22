@@ -1,0 +1,5 @@
+Unsploitable is an emergency patcher, providing critical security patches and updates for commonly exploited vulnerabilities in common operating systems, services, and applications.
+
+Unsploitable specifically targets exploits provided by penetration testing frameworks such as Metasploit.
+
+Unsploitable is tool for the Metasploit Framework. Unsploitable should work with any MSF product (including: OpenSource, Express, or Pro).

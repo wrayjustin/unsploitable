@@ -1,0 +1,16 @@
+##  Patch Prerequisites for Unsploitable
+##
+##	Format:  Product Name|Arch|File|Options
+##
+##  This file is not automatically updated, nor is it often updated, edit as you see fit.
+##
+
+Windows 7|x64|Windows6.0-KB942288-v2-x64.msu|/quiet /passive /norestart /forceappsclose
+Windows 7|x86|Windows6.0-KB942288-v2-x86.msu|/quiet /passive /norestart /forceappsclose
+Windows 2008|x64|Windows6.0-KB942288-v2-x64.msu|/quiet /passive /norestart /forceappsclose
+Windows 2008|x86|Windows6.0-KB942288-v2-x86.msu|/quiet /passive /norestart /forceappsclose
+Windows Vista|x64|Windows6.0-KB942288-v2-x64.msu|/quiet /passive /norestart /forceappsclose
+Windows Vista|x86|Windows6.0-KB942288-v2-x86.msu|/quiet /passive /norestart /forceappsclose
+Windows 2003|x64|WindowsServer2003-KB942288-v4-x64.exe|/quiet /passive /norestart /forceappsclose
+Windows 2003|x86|WindowsServer2003-KB942288-v4-x86.exe|/quiet /passive /norestart /forceappsclose
+Windows XP||WindowsXP-KB942288-v3-x86.exe|/quiet /passive /norestart /forceappsclose
