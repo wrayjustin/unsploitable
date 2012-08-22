@@ -5,220 +5,277 @@
 ##	Format:  ExploitName|OS|PatchLevel|Arch|PatchFilename|KB|CVE|MS-SB
 ##
 
-exploit/windows/dcerpc/ms03_026_dcom|Windows 2000|Service Pack 4||Windows2000-KB823980-x86-ENU.exe|KB823980|2003-0352|MS03-026
+exploit/windows/dcerpc/ms03_026_dcom|Windows 2000|SP4||Windows2000-KB823980-x86-ENU.exe|KB823980|2003-0352|MS03-026
 exploit/windows/dcerpc/ms03_026_dcom|Windows 2000|||W2KSP4_EN.EXE|KB900345||
-exploit/windows/dcerpc/ms03_026_dcom|Windows XP|Service Pack 3|x86|WindowsXP-KB823980-x86-ENU.exe|KB823980|2003-0352|MS03-026
-exploit/windows/dcerpc/ms03_026_dcom|Windows XP|Service Pack 2|x64|WindowsXP-KB823980-ia64-ENU.exe|KB823980|2003-0352|MS03-026
-exploit/windows/dcerpc/ms03_026_dcom|Windows XP|Service Pack 2|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
-exploit/windows/dcerpc/ms03_026_dcom|Windows XP|Service Pack 1|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
+exploit/windows/dcerpc/ms03_026_dcom|Windows XP|SP3|x86|WindowsXP-KB823980-x86-ENU.exe|KB823980|2003-0352|MS03-026
+exploit/windows/dcerpc/ms03_026_dcom|Windows XP|SP2|x64|WindowsXP-KB823980-ia64-ENU.exe|KB823980|2003-0352|MS03-026
+exploit/windows/dcerpc/ms03_026_dcom|Windows XP|SP2|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
+exploit/windows/dcerpc/ms03_026_dcom|Windows XP|SP1|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
 exploit/windows/dcerpc/ms03_026_dcom|Windows XP||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
 exploit/windows/dcerpc/ms03_026_dcom|Windows XP||x86|sp1aexpress_usa.exe|KB324722||
-exploit/windows/dcerpc/ms03_026_dcom|Windows Server 2003|Service Pack 2|x86|WindowsServer2003-KB823980-x86-ENU.exe|KB823980|2003-0352|MS03-026
-exploit/windows/dcerpc/ms03_026_dcom|Windows Server 2003|Service Pack 2|x64|WindowsServer2003-KB823980-ia64-ENU.exe|KB823980|2003-0352|MS03-026
-exploit/windows/dcerpc/ms03_026_dcom|Windows Server 2003||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
-exploit/windows/dcerpc/ms03_026_dcom|Windows Server 2003||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
-exploit/windows/dcerpc/ms05_017_msmq|Windows 2000|Service Pack 4|x86|Windows2000-KB892944-x86-ENU.EXE|KB892944|2005-0059|MS05-017
+exploit/windows/dcerpc/ms03_026_dcom|Windows 2003|SP2|x86|WindowsServer2003-KB823980-x86-ENU.exe|KB823980|2003-0352|MS03-026
+exploit/windows/dcerpc/ms03_026_dcom|Windows 2003|SP2|x64|WindowsServer2003-KB823980-ia64-ENU.exe|KB823980|2003-0352|MS03-026
+exploit/windows/dcerpc/ms03_026_dcom|Windows 2003||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
+exploit/windows/dcerpc/ms03_026_dcom|Windows 2003||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
+exploit/windows/dcerpc/ms05_017_msmq|Windows 2000|SP4||Windows2000-KB892944-x86-ENU.EXE|KB892944|2005-0059|MS05-017
 exploit/windows/dcerpc/ms05_017_msmq|Windows 2000|||W2KSP4_EN.EXE|KB900345||
-exploit/windows/dcerpc/ms05_017_msmq|Windows XP|Service Pack 3|x86|WindowsXP-KB892944-x86-ENU.exe|KB892944|2005-0059|MS05-017
-exploit/windows/dcerpc/ms05_017_msmq|Windows XP|Service Pack 2|x64|WindowsXP-KB892944-ia64-ENU.exe|KB892944|2005-0059|MS05-017
-exploit/windows/dcerpc/ms05_017_msmq|Windows XP|Service Pack 2|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
-exploit/windows/dcerpc/ms05_017_msmq|Windows XP|Service Pack 1|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
+exploit/windows/dcerpc/ms05_017_msmq|Windows XP|SP3|x86|WindowsXP-KB892944-x86-ENU.exe|KB892944|2005-0059|MS05-017
+exploit/windows/dcerpc/ms05_017_msmq|Windows XP|SP2|x64|WindowsXP-KB892944-ia64-ENU.exe|KB892944|2005-0059|MS05-017
+exploit/windows/dcerpc/ms05_017_msmq|Windows XP|SP2|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
+exploit/windows/dcerpc/ms05_017_msmq|Windows XP|SP1|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
 exploit/windows/dcerpc/ms05_017_msmq|Windows XP||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
 exploit/windows/dcerpc/ms05_017_msmq|Windows XP||x86|sp1aexpress_usa.exe|KB324722||
-exploit/windows/dcerpc/ms07_029_msdns_zonename|Windows 2000|Service Pack 4|x86|Windows2000-KB935966-x86-ENU.EXE|KB935966|2007-1748|MS07-029
+exploit/windows/dcerpc/ms07_029_msdns_zonename|Windows 2000|SP4||Windows2000-KB935966-x86-ENU.EXE|KB935966|2007-1748|MS07-029
 exploit/windows/dcerpc/ms07_029_msdns_zonename|Windows 2000|||W2KSP4_EN.EXE|KB900345||
-exploit/windows/dcerpc/ms07_029_msdns_zonename|Windows Server 2003|Service Pack 2|x86|WindowsServer2003-KB935966-x86-ENU.exe|KB935966|2007-1748|MS07-029
-exploit/windows/dcerpc/ms07_029_msdns_zonename|Windows Server 2003|Service Pack 2|x64|WindowsServer2003-KB935966-ia64-ENU.exe|KB935966|2007-1748|MS07-029
-exploit/windows/dcerpc/ms07_029_msdns_zonename|Windows Server 2003||x64|WindowsServer2003.WindowsXP-KB935966-x64-ENU.exe|KB935966|2007-1748|MS07-029
-exploit/windows/dcerpc/ms07_029_msdns_zonename|Windows Server 2003||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
-exploit/windows/dcerpc/ms07_029_msdns_zonename|Windows Server 2003||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
-exploit/windows/smb/ms07_029_msdns_zonename|Windows 2000|Service Pack 4|x86|Windows2000-KB935966-x86-ENU.EXE|KB935966|2007-1748|MS07-029
+exploit/windows/dcerpc/ms07_029_msdns_zonename|Windows 2003|SP2|x86|WindowsServer2003-KB935966-x86-ENU.exe|KB935966|2007-1748|MS07-029
+exploit/windows/dcerpc/ms07_029_msdns_zonename|Windows 2003|SP2|x64|WindowsServer2003-KB935966-ia64-ENU.exe|KB935966|2007-1748|MS07-029
+exploit/windows/dcerpc/ms07_029_msdns_zonename|Windows 2003||x64|WindowsServer2003.WindowsXP-KB935966-x64-ENU.exe|KB935966|2007-1748|MS07-029
+exploit/windows/dcerpc/ms07_029_msdns_zonename|Windows 2003||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
+exploit/windows/dcerpc/ms07_029_msdns_zonename|Windows 2003||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
+exploit/windows/smb/ms07_029_msdns_zonename|Windows 2000|SP4||Windows2000-KB935966-x86-ENU.EXE|KB935966|2007-1748|MS07-029
 exploit/windows/smb/ms07_029_msdns_zonename|Windows 2000|||W2KSP4_EN.EXE|KB900345||
-exploit/windows/smb/ms07_029_msdns_zonename|Windows Server 2003|Service Pack 2|x86|WindowsServer2003-KB935966-x86-ENU.exe|KB935966|2007-1748|MS07-029
-exploit/windows/smb/ms07_029_msdns_zonename|Windows Server 2003|Service Pack 2|x64|WindowsServer2003-KB935966-ia64-ENU.exe|KB935966|2007-1748|MS07-029
-exploit/windows/smb/ms07_029_msdns_zonename|Windows Server 2003||x64|WindowsServer2003.WindowsXP-KB935966-x64-ENU.exe|KB935966|2007-1748|MS07-029
-exploit/windows/smb/ms07_029_msdns_zonename|Windows Server 2003||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
-exploit/windows/smb/ms07_029_msdns_zonename|Windows Server 2003||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
-exploit/windows/dcerpc/ms07_065_msmq|Windows 2000||x86|Windows2000-KB937894-x86-ENU.EXE|KB937894|2007-3039|MS07-065
+exploit/windows/smb/ms07_029_msdns_zonename|Windows 2003|SP2|x86|WindowsServer2003-KB935966-x86-ENU.exe|KB935966|2007-1748|MS07-029
+exploit/windows/smb/ms07_029_msdns_zonename|Windows 2003|SP2|x64|WindowsServer2003-KB935966-ia64-ENU.exe|KB935966|2007-1748|MS07-029
+exploit/windows/smb/ms07_029_msdns_zonename|Windows 2003||x64|WindowsServer2003.WindowsXP-KB935966-x64-ENU.exe|KB935966|2007-1748|MS07-029
+exploit/windows/smb/ms07_029_msdns_zonename|Windows 2003||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
+exploit/windows/smb/ms07_029_msdns_zonename|Windows 2003||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
+exploit/windows/dcerpc/ms07_065_msmq|Windows 2000|SP4||Windows2000-KB937894-x86-ENU.EXE|KB937894|2007-3039|MS07-065
 exploit/windows/dcerpc/ms07_065_msmq|Windows 2000|||W2KSP4_EN.EXE|KB900345||
-exploit/windows/dcerpc/ms07_065_msmq|Windows XP|Service Pack 3|x86|WindowsXP-KB937894-x86-ENU.exe|KB937894|2007-3039|MS07-065
-exploit/windows/dcerpc/ms07_065_msmq|Windows XP|Service Pack 2|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
-exploit/windows/dcerpc/ms07_065_msmq|Windows XP|Service Pack 1|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
+exploit/windows/dcerpc/ms07_065_msmq|Windows XP|SP3|x86|WindowsXP-KB937894-x86-ENU.exe|KB937894|2007-3039|MS07-065
+exploit/windows/dcerpc/ms07_065_msmq|Windows XP|SP2|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
+exploit/windows/dcerpc/ms07_065_msmq|Windows XP|SP1|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
 exploit/windows/dcerpc/ms07_065_msmq|Windows XP||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
 exploit/windows/dcerpc/ms07_065_msmq|Windows XP||x86|sp1aexpress_usa.exe|KB324722||
+exploit/windows/dcerpc/ms05_017_msmq|Windows 2000|SP4||Windows2000-KB828749-x86-ENU.exe|KB828749|2003-0812|MS03-049
 exploit/windows/dcerpc/ms05_017_msmq|Windows 2000|||W2KSP4_EN.EXE|KB900345||
-exploit/windows/dcerpc/ms05_017_msmq|Windows 2000||x86|Windows2000-KB828749-x86-ENU.exe|KB828749|2003-0812|MS03-049
-exploit/windows/dcerpc/ms05_017_msmq|Windows 2000|||W2KSP4_EN.EXE|KB900345||
-exploit/windows/smb/ms03_049_netapi|Windows XP|Service Pack 3|x86|WindowsXP-KB828035-x86-ENU.exe|KB828749|2003-0812|MS03-049
-exploit/windows/smb/ms03_049_netapi|Windows XP|Service Pack 2|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
-exploit/windows/smb/ms03_049_netapi|Windows XP|Service Pack 1|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
+exploit/windows/smb/ms03_049_netapi|Windows XP|SP3|x86|WindowsXP-KB828035-x86-ENU.exe|KB828749|2003-0812|MS03-049
+exploit/windows/smb/ms03_049_netapi|Windows XP|SP2|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
+exploit/windows/smb/ms03_049_netapi|Windows XP|SP1|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
 exploit/windows/smb/ms03_049_netapi|Windows XP||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
 exploit/windows/smb/ms03_049_netapi|Windows XP||x86|sp1aexpress_usa.exe|KB324722||
-exploit/windows/smb/ms04_007_killbill|Windows 2000||x86|Windows2000-KB828028-x86-ENU.EXE|KB828028|2003-0818|MS04-007
+exploit/windows/smb/ms04_007_killbill|Windows 2000|SP4||Windows2000-KB828028-x86-ENU.EXE|KB828028|2003-0818|MS04-007
 exploit/windows/smb/ms04_007_killbill|Windows 2000|||W2KSP4_EN.EXE|KB900345||
-exploit/windows/smb/ms04_007_killbill|Windows XP|Service Pack 3|x86|WindowsXP-KB828028-x86-ENU.exe|KB828028|2003-0818|MS04-007
-exploit/windows/smb/ms04_007_killbill|Windows XP|Service Pack 2|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
-exploit/windows/smb/ms04_007_killbill|Windows XP|Service Pack 1|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
+exploit/windows/smb/ms04_007_killbill|Windows XP|SP3|x86|WindowsXP-KB828028-x86-ENU.exe|KB828028|2003-0818|MS04-007
+exploit/windows/smb/ms04_007_killbill|Windows XP|SP2|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
+exploit/windows/smb/ms04_007_killbill|Windows XP|SP1|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
 exploit/windows/smb/ms04_007_killbill|Windows XP||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
 exploit/windows/smb/ms04_007_killbill|Windows XP||x86|sp1aexpress_usa.exe|KB324722||
-exploit/windows/smb/ms04_007_killbill|Windows Server 2003|Service Pack 2|x86|WindowsServer2003-KB828028-x86-ENU.exe|KB828028|2003-0818|MS04-007
-exploit/windows/smb/ms04_007_killbill|Windows Server 2003|Service Pack 2|x64|WindowsServer2003-KB828028-ia64-ENU.exe|KB830344|2003-0818|MS04-007
-exploit/windows/smb/ms04_007_killbill|Windows Server 2003||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
-exploit/windows/smb/ms04_007_killbill|Windows Server 2003||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
-exploit/windows/smb/ms04_011_lsass|Windows 2000||x86|Windows2000-KB835732-x86-ENU.EXE|KB835732|2003-0533|MS04-011
+exploit/windows/smb/ms04_007_killbill|Windows 2003|SP2|x86|WindowsServer2003-KB828028-x86-ENU.exe|KB828028|2003-0818|MS04-007
+exploit/windows/smb/ms04_007_killbill|Windows 2003|SP2|x64|WindowsServer2003-KB828028-ia64-ENU.exe|KB830344|2003-0818|MS04-007
+exploit/windows/smb/ms04_007_killbill|Windows 2003||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
+exploit/windows/smb/ms04_007_killbill|Windows 2003||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
+exploit/windows/smb/ms04_011_lsass|Windows 2000|SP4||Windows2000-KB835732-x86-ENU.EXE|KB835732|2003-0533|MS04-011
 exploit/windows/smb/ms04_011_lsass|Windows 2000|||W2KSP4_EN.EXE|KB900345||
-exploit/windows/smb/ms04_011_lsass|Windows XP|Service Pack 3|x86|WindowsXP-KB835732-x86-ENU.EXE|KB835732|2003-0533|MS04-011
-exploit/windows/smb/ms04_011_lsass|Windows XP|Service Pack 2|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
-exploit/windows/smb/ms04_011_lsass|Windows XP|Service Pack 1|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
+exploit/windows/smb/ms04_011_lsass|Windows XP|SP3|x86|WindowsXP-KB835732-x86-ENU.EXE|KB835732|2003-0533|MS04-011
+exploit/windows/smb/ms04_011_lsass|Windows XP|SP2|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
+exploit/windows/smb/ms04_011_lsass|Windows XP|SP1|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
 exploit/windows/smb/ms04_011_lsass|Windows XP||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
 exploit/windows/smb/ms04_011_lsass|Windows XP||x86|sp1aexpress_usa.exe|KB324722||
-exploit/windows/smb/ms04_011_lsass|Windows Server 2003|Service Pack 2|x86|WindowsServer2003-KB835732-x86-ENU.EXE|KB835732|2003-0533|MS04-011
-exploit/windows/smb/ms04_011_lsass|Windows Server 2003|Service Pack 2|x64|WindowsServer2003-KB835732-IA64-ENU.EXE|KB835732|2003-0533|MS04-011
-exploit/windows/smb/ms04_011_lsass|Windows Server 2003||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
-exploit/windows/smb/ms04_011_lsass|Windows Server 2003||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
-exploit/windows/smb/ms04_031_netdde|Windows 2000||x86|Windows2000-KB841533-x86-ENU.EXE|KB841533|2004-0206|MS04-031
+exploit/windows/smb/ms04_011_lsass|Windows 2003|SP2|x86|WindowsServer2003-KB835732-x86-ENU.EXE|KB835732|2003-0533|MS04-011
+exploit/windows/smb/ms04_011_lsass|Windows 2003|SP2|x64|WindowsServer2003-KB835732-IA64-ENU.EXE|KB835732|2003-0533|MS04-011
+exploit/windows/smb/ms04_011_lsass|Windows 2003||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
+exploit/windows/smb/ms04_011_lsass|Windows 2003||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
+exploit/windows/smb/ms04_031_netdde|Windows 2000|SP4||Windows2000-KB841533-x86-ENU.EXE|KB841533|2004-0206|MS04-031
 exploit/windows/smb/ms04_031_netdde|Windows 2000|||W2KSP4_EN.EXE|KB900345||
-exploit/windows/smb/ms04_031_netdde|Windows XP|Service Pack 3|x86|WindowsXP-KB841533-x86-enu.exe|KB841533|2004-0206|MS04-031
-exploit/windows/smb/ms04_031_netdde|Windows XP|Service Pack 2|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
-exploit/windows/smb/ms04_031_netdde|Windows XP|Service Pack 1|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
+exploit/windows/smb/ms04_031_netdde|Windows XP|SP3|x86|WindowsXP-KB841533-x86-enu.exe|KB841533|2004-0206|MS04-031
+exploit/windows/smb/ms04_031_netdde|Windows XP|SP2|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
+exploit/windows/smb/ms04_031_netdde|Windows XP|SP1|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
 exploit/windows/smb/ms04_031_netdde|Windows XP||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
 exploit/windows/smb/ms04_031_netdde|Windows XP||x86|sp1aexpress_usa.exe|KB324722||
-exploit/windows/smb/ms04_031_netdde|Windows Server 2003|Service Pack 2|x86|WindowsServer2003-KB841533-x86-enu.EXE|KB841533|2004-0206|MS04-031
-exploit/windows/smb/ms04_031_netdde|Windows Server 2003|Service Pack 2|x64|WindowsServer2003-KB841533-ia64-enu.EXE|KB841533|2004-0206|MS04-031
-exploit/windows/smb/ms04_031_netdde|Windows Server 2003||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
-exploit/windows/smb/ms04_031_netdde|Windows Server 2003||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
-exploit/windows/smb/ms05_039_pnp|Windows 2000||x86|Windows2000-KB899588-x86-ENU.EXE|KB899588|2005-1983|MS05-039
+exploit/windows/smb/ms04_031_netdde|Windows 2003|SP2|x86|WindowsServer2003-KB841533-x86-enu.EXE|KB841533|2004-0206|MS04-031
+exploit/windows/smb/ms04_031_netdde|Windows 2003|SP2|x64|WindowsServer2003-KB841533-ia64-enu.EXE|KB841533|2004-0206|MS04-031
+exploit/windows/smb/ms04_031_netdde|Windows 2003||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
+exploit/windows/smb/ms04_031_netdde|Windows 2003||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
+exploit/windows/smb/ms05_039_pnp|Windows 2000|SP4||Windows2000-KB899588-x86-ENU.EXE|KB899588|2005-1983|MS05-039
 exploit/windows/smb/ms05_039_pnp|Windows 2000|||W2KSP4_EN.EXE|KB900345||
-exploit/windows/smb/ms05_039_pnp|Windows XP|Service Pack 3|x86|WindowsXP-KB899588-x86-ENU.exe|KB899588|2005-1983|MS05-039
-exploit/windows/smb/ms05_039_pnp|Windows XP|Service Pack 2|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
-exploit/windows/smb/ms05_039_pnp|Windows XP|Service Pack 1|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
+exploit/windows/smb/ms05_039_pnp|Windows XP|SP3|x86|WindowsXP-KB899588-x86-ENU.exe|KB899588|2005-1983|MS05-039
+exploit/windows/smb/ms05_039_pnp|Windows XP|SP2|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
+exploit/windows/smb/ms05_039_pnp|Windows XP|SP1|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
 exploit/windows/smb/ms05_039_pnp|Windows XP||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
 exploit/windows/smb/ms05_039_pnp|Windows XP||x86|sp1aexpress_usa.exe|KB324722||
-exploit/windows/smb/ms05_039_pnp|Windows Server 2003|Service Pack 2|x86|WindowsServer2003-KB899588-x86-ENU.exe|KB899588|2005-1983|MS05-039
-exploit/windows/smb/ms05_039_pnp|Windows Server 2003|Service Pack 2|x64|WindowsServer2003.WindowsXP-KB899588-x64-ENU.exe|KB899588|2005-1983|MS05-039
-exploit/windows/smb/ms05_039_pnp|Windows Server 2003||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
-exploit/windows/smb/ms05_039_pnp|Windows Server 2003||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
-exploit/windows/smb/ms06_025_rasmans_reg|Windows 2000||x86|Windows2000-KB911280-v2-x86-ENU.EXE|KB911280|2006-2370|MS06-025
+exploit/windows/smb/ms05_039_pnp|Windows 2003|SP2|x86|WindowsServer2003-KB899588-x86-ENU.exe|KB899588|2005-1983|MS05-039
+exploit/windows/smb/ms05_039_pnp|Windows 2003|SP2|x64|WindowsServer2003.WindowsXP-KB899588-x64-ENU.exe|KB899588|2005-1983|MS05-039
+exploit/windows/smb/ms05_039_pnp|Windows 2003||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
+exploit/windows/smb/ms05_039_pnp|Windows 2003||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
+exploit/windows/smb/ms06_025_rasmans_reg|Windows 2000|SP4||Windows2000-KB911280-v2-x86-ENU.EXE|KB911280|2006-2370|MS06-025
 exploit/windows/smb/ms06_025_rasmans_reg|Windows 2000|||W2KSP4_EN.EXE|KB900345||
-exploit/windows/smb/ms06_025_rasmans_reg|Windows XP|Service Pack 3|x86|WindowsXP-KB911280-v2-x86-ENU.exe|KB911280|2006-2370|MS06-025
-exploit/windows/smb/ms06_025_rasmans_reg|Windows XP|Service Pack 2|x64|WindowsServer2003.WindowsXP-KB911280-v2-x64-ENU.exe|KB911280|2006-2370|MS06-025
-exploit/windows/smb/ms06_025_rasmans_reg|Windows XP|Service Pack 2|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
-exploit/windows/smb/ms06_025_rasmans_reg|Windows XP|Service Pack 1|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
+exploit/windows/smb/ms06_025_rasmans_reg|Windows XP|SP3|x86|WindowsXP-KB911280-v2-x86-ENU.exe|KB911280|2006-2370|MS06-025
+exploit/windows/smb/ms06_025_rasmans_reg|Windows XP|SP2|x64|WindowsServer2003.WindowsXP-KB911280-v2-x64-ENU.exe|KB911280|2006-2370|MS06-025
+exploit/windows/smb/ms06_025_rasmans_reg|Windows XP|SP2|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
+exploit/windows/smb/ms06_025_rasmans_reg|Windows XP|SP1|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
 exploit/windows/smb/ms06_025_rasmans_reg|Windows XP||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
 exploit/windows/smb/ms06_025_rasmans_reg|Windows XP||x86|sp1aexpress_usa.exe|KB324722||
-exploit/windows/smb/ms06_025_rasmans_reg|Windows Server 2003|Service Pack 2|x86|WindowsServer2003-KB911280-v2-x86-ENU.exe|KB911280|2006-2370|MS06-025
-exploit/windows/smb/ms06_025_rasmans_reg|Windows Server 2003|Service Pack 2|x64|WindowsServer2003.WindowsXP-KB911280-v2-x64-ENU.exe|KB911280|2006-2370|MS06-025
-exploit/windows/smb/ms06_025_rasmans_reg|Windows Server 2003||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
-exploit/windows/smb/ms06_025_rasmans_reg|Windows Server 2003||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
-exploit/windows/smb/ms06_025_rras|Windows 2000||x86|Windows2000-KB911280-v2-x86-ENU.EXE|KB911280|2006-2370|MS06-025
+exploit/windows/smb/ms06_025_rasmans_reg|Windows 2003|SP2|x86|WindowsServer2003-KB911280-v2-x86-ENU.exe|KB911280|2006-2370|MS06-025
+exploit/windows/smb/ms06_025_rasmans_reg|Windows 2003|SP2|x64|WindowsServer2003.WindowsXP-KB911280-v2-x64-ENU.exe|KB911280|2006-2370|MS06-025
+exploit/windows/smb/ms06_025_rasmans_reg|Windows 2003||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
+exploit/windows/smb/ms06_025_rasmans_reg|Windows 2003||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
+exploit/windows/smb/ms06_025_rras|Windows 2000|SP4||Windows2000-KB911280-v2-x86-ENU.EXE|KB911280|2006-2370|MS06-025
 exploit/windows/smb/ms06_025_rras|Windows 2000|||W2KSP4_EN.EXE|KB900345||
-exploit/windows/smb/ms06_025_rras|Windows XP|Service Pack 3|x86|WindowsXP-KB911280-v2-x86-ENU.exe|KB911280|2006-2370|MS06-025
-exploit/windows/smb/ms06_025_rras|Windows XP|Service Pack 2|x64|WindowsServer2003.WindowsXP-KB911280-v2-x64-ENU.exe|KB911280|2006-2370|MS06-025
-exploit/windows/smb/ms06_025_rras|Windows XP|Service Pack 2|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
-exploit/windows/smb/ms06_025_rras|Windows XP|Service Pack 1|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
+exploit/windows/smb/ms06_025_rras|Windows XP|SP3|x86|WindowsXP-KB911280-v2-x86-ENU.exe|KB911280|2006-2370|MS06-025
+exploit/windows/smb/ms06_025_rras|Windows XP|SP2|x64|WindowsServer2003.WindowsXP-KB911280-v2-x64-ENU.exe|KB911280|2006-2370|MS06-025
+exploit/windows/smb/ms06_025_rras|Windows XP|SP2|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
+exploit/windows/smb/ms06_025_rras|Windows XP|SP1|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
 exploit/windows/smb/ms06_025_rras|Windows XP||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
 exploit/windows/smb/ms06_025_rras|Windows XP||x86|sp1aexpress_usa.exe|KB324722||
-exploit/windows/smb/ms06_025_rras|Windows Server 2003|Service Pack 2|x86|WindowsServer2003-KB911280-v2-x86-ENU.exe|KB911280|2006-2370|MS06-025
-exploit/windows/smb/ms06_025_rras|Windows Server 2003|Service Pack 2|x64|WindowsServer2003.WindowsXP-KB911280-v2-x64-ENU.exe|KB911280|2006-2370|MS06-025
-exploit/windows/smb/ms06_025_rras|Windows Server 2003||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
-exploit/windows/smb/ms06_025_rras|Windows Server 2003||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
-exploit/windows/smb/ms06_040_netapi|Windows 2000||x86|Windows2000-KB921883-x86-ENU.EXE|KB921883|2006-3439|MS06-040
+exploit/windows/smb/ms06_025_rras|Windows 2003|SP2|x86|WindowsServer2003-KB911280-v2-x86-ENU.exe|KB911280|2006-2370|MS06-025
+exploit/windows/smb/ms06_025_rras|Windows 2003|SP2|x64|WindowsServer2003.WindowsXP-KB911280-v2-x64-ENU.exe|KB911280|2006-2370|MS06-025
+exploit/windows/smb/ms06_025_rras|Windows 2003||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
+exploit/windows/smb/ms06_025_rras|Windows 2003||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
+exploit/windows/smb/ms06_040_netapi|Windows 2000|SP4||Windows2000-KB921883-x86-ENU.EXE|KB921883|2006-3439|MS06-040
 exploit/windows/smb/ms06_040_netapi|Windows 2000|||W2KSP4_EN.EXE|KB900345||
-exploit/windows/smb/ms06_040_netapi|Windows XP|Service Pack 3|x86|WindowsXP-KB921883-x86-ENU.exe|KB921883|2006-3439|MS06-040
-exploit/windows/smb/ms06_040_netapi|Windows XP|Service Pack 2|x64|WindowsServer2003.WindowsXP-KB921883-v2-x64-ENU.exe|KB921883|2006-3439|MS06-040
-exploit/windows/smb/ms06_040_netapi|Windows XP|Service Pack 2|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
-exploit/windows/smb/ms06_040_netapi|Windows XP|Service Pack 1|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
+exploit/windows/smb/ms06_040_netapi|Windows XP|SP3|x86|WindowsXP-KB921883-x86-ENU.exe|KB921883|2006-3439|MS06-040
+exploit/windows/smb/ms06_040_netapi|Windows XP|SP2|x64|WindowsServer2003.WindowsXP-KB921883-v2-x64-ENU.exe|KB921883|2006-3439|MS06-040
+exploit/windows/smb/ms06_040_netapi|Windows XP|SP2|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
+exploit/windows/smb/ms06_040_netapi|Windows XP|SP1|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
 exploit/windows/smb/ms06_040_netapi|Windows XP||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
 exploit/windows/smb/ms06_040_netapi|Windows XP||x86|sp1aexpress_usa.exe|KB324722||
-exploit/windows/smb/ms06_040_netapi|Windows Server 2003|Service Pack 2|x86|WindowsServer2003-KB921883-v2-x86-ENU.exe|KB921883|2006-3439|MS06-040
-exploit/windows/smb/ms06_040_netapi|Windows Server 2003|Service Pack 2|x64|WindowsServer2003.WindowsXP-KB921883-v2-x64-ENU.exe|KB921883|2006-3439|MS06-040
-exploit/windows/smb/ms06_040_netapi|Windows Server 2003||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
-exploit/windows/smb/ms06_040_netapi|Windows Server 2003||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
-exploit/windows/smb/ms06_066_nwapi|Windows 2000||x86|Windows2000-KB923980-x86-ENU.EXE|KB923980|2006-4688|MS06-066
+exploit/windows/smb/ms06_040_netapi|Windows 2003|SP2|x86|WindowsServer2003-KB921883-v2-x86-ENU.exe|KB921883|2006-3439|MS06-040
+exploit/windows/smb/ms06_040_netapi|Windows 2003|SP2|x64|WindowsServer2003.WindowsXP-KB921883-v2-x64-ENU.exe|KB921883|2006-3439|MS06-040
+exploit/windows/smb/ms06_040_netapi|Windows 2003||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
+exploit/windows/smb/ms06_040_netapi|Windows 2003||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
+exploit/windows/smb/ms06_066_nwapi|Windows 2000|SP4||Windows2000-KB923980-x86-ENU.EXE|KB923980|2006-4688|MS06-066
 exploit/windows/smb/ms06_066_nwapi|Windows 2000|||W2KSP4_EN.EXE|KB900345||
-exploit/windows/smb/ms06_066_nwapi|Windows XP|Service Pack 3|x86|WindowsXP-KB923980-x86-ENU.exe|KB923980|2006-4688|MS06-066
-exploit/windows/smb/ms06_066_nwapi|Windows XP|Service Pack 2|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
-exploit/windows/smb/ms06_066_nwapi|Windows XP|Service Pack 1|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
+exploit/windows/smb/ms06_066_nwapi|Windows XP|SP3|x86|WindowsXP-KB923980-x86-ENU.exe|KB923980|2006-4688|MS06-066
+exploit/windows/smb/ms06_066_nwapi|Windows XP|SP2|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
+exploit/windows/smb/ms06_066_nwapi|Windows XP|SP1|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
 exploit/windows/smb/ms06_066_nwapi|Windows XP||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
 exploit/windows/smb/ms06_066_nwapi|Windows XP||x86|sp1aexpress_usa.exe|KB324722||
-exploit/windows/smb/ms06_066_nwapi|Windows Server 2003|Service Pack 2|x86|WindowsServer2003-KB923980-x86-ENU.exe|KB923980|2006-4688|MS06-066
-exploit/windows/smb/ms06_066_nwapi|Windows Server 2003||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
-exploit/windows/smb/ms06_066_nwwks|Windows 2000||x86|Windows2000-KB923980-x86-ENU.EXE|KB923980|2006-4688|MS06-066
+exploit/windows/smb/ms06_066_nwapi|Windows 2003|SP2|x86|WindowsServer2003-KB923980-x86-ENU.exe|KB923980|2006-4688|MS06-066
+exploit/windows/smb/ms06_066_nwapi|Windows 2003||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
+exploit/windows/smb/ms06_066_nwwks|Windows 2000|SP4||Windows2000-KB923980-x86-ENU.EXE|KB923980|2006-4688|MS06-066
 exploit/windows/smb/ms06_066_nwwks|Windows 2000|||W2KSP4_EN.EXE|KB900345||
-exploit/windows/smb/ms06_066_nwwks|Windows XP|Service Pack 3|x86|WindowsXP-KB923980-x86-ENU.exe|KB923980|2006-4688|MS06-066
-exploit/windows/smb/ms06_066_nwwks|Windows XP|Service Pack 2|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
-exploit/windows/smb/ms06_066_nwwks|Windows XP|Service Pack 1|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
+exploit/windows/smb/ms06_066_nwwks|Windows XP|SP3|x86|WindowsXP-KB923980-x86-ENU.exe|KB923980|2006-4688|MS06-066
+exploit/windows/smb/ms06_066_nwwks|Windows XP|SP2|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
+exploit/windows/smb/ms06_066_nwwks|Windows XP|SP1|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
 exploit/windows/smb/ms06_066_nwwks|Windows XP||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
 exploit/windows/smb/ms06_066_nwwks|Windows XP||x86|sp1aexpress_usa.exe|KB324722||
-exploit/windows/smb/ms06_066_nwwks|Windows Server 2003|Service Pack 2|x86|WindowsServer2003-KB923980-x86-ENU.exe|KB923980|2006-4688|MS06-066
-exploit/windows/smb/ms06_066_nwwks|Windows Server 2003||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
-exploit/windows/smb/ms06_066_nwwks|Windows Server 2003||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
-exploit/windows/smb/ms06_070_wkssvc|Windows 2000||x86|Windows2000-KB924270-x86-ENU.EXE|KB924270|2006-4691|MS06-070
+exploit/windows/smb/ms06_066_nwwks|Windows 2003|SP2|x86|WindowsServer2003-KB923980-x86-ENU.exe|KB923980|2006-4688|MS06-066
+exploit/windows/smb/ms06_066_nwwks|Windows 2003||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
+exploit/windows/smb/ms06_066_nwwks|Windows 2003||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
+exploit/windows/smb/ms06_070_wkssvc|Windows 2000|SP4||Windows2000-KB924270-x86-ENU.EXE|KB924270|2006-4691|MS06-070
 exploit/windows/smb/ms06_070_wkssvc|Windows 2000|||W2KSP4_EN.EXE|KB900345||
-exploit/windows/smb/ms06_070_wkssvc|Windows XP|Service Pack 3|x86|WindowsXP-KB924270-x86-ENU.exe|KB924270|2006-4691|MS06-070
-exploit/windows/smb/ms06_070_wkssvc|Windows XP|Service Pack 2|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
-exploit/windows/smb/ms06_070_wkssvc|Windows XP|Service Pack 1|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
+exploit/windows/smb/ms06_070_wkssvc|Windows XP|SP3|x86|WindowsXP-KB924270-x86-ENU.exe|KB924270|2006-4691|MS06-070
+exploit/windows/smb/ms06_070_wkssvc|Windows XP|SP2|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
+exploit/windows/smb/ms06_070_wkssvc|Windows XP|SP1|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
 exploit/windows/smb/ms06_070_wkssvc|Windows XP||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
 exploit/windows/smb/ms06_070_wkssvc|Windows XP||x86|sp1aexpress_usa.exe|KB324722||
-exploit/windows/smb/ms08_067_netapi|Windows 2000||x86|Windows2000-KB958644-x86-ENU.EXE|KB958644|2008-4250|MS08-067
+exploit/windows/smb/ms08_067_netapi|Windows 2000|SP4||Windows2000-KB958644-x86-ENU.EXE|KB958644|2008-4250|MS08-067
 exploit/windows/smb/ms08_067_netapi|Windows 2000|||W2KSP4_EN.EXE|KB900345||
-exploit/windows/smb/ms08_067_netapi|Windows XP|Service Pack 3|x86|WindowsXP-KB958644-x86-ENU.exe|KB958644|2008-4250|MS08-067
-exploit/windows/smb/ms08_067_netapi|Windows XP|Service Pack 2|x64|WindowsServer2003.WindowsXP-KB958644-x64-ENU.exe|KB958644|2008-4250|MS08-067
-exploit/windows/smb/ms08_067_netapi|Windows XP|Service Pack 2|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
-exploit/windows/smb/ms08_067_netapi|Windows XP|Service Pack 1|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
+exploit/windows/smb/ms08_067_netapi|Windows XP|SP3|x86|WindowsXP-KB958644-x86-ENU.exe|KB958644|2008-4250|MS08-067
+exploit/windows/smb/ms08_067_netapi|Windows XP|SP2|x64|WindowsServer2003.WindowsXP-KB958644-x64-ENU.exe|KB958644|2008-4250|MS08-067
+exploit/windows/smb/ms08_067_netapi|Windows XP|SP2|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
+exploit/windows/smb/ms08_067_netapi|Windows XP|SP1|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
 exploit/windows/smb/ms08_067_netapi|Windows XP||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
 exploit/windows/smb/ms08_067_netapi|Windows XP||x86|sp1aexpress_usa.exe|KB324722||
-exploit/windows/smb/ms08_067_netapi|Windows Server 2003|Service Pack 2|x86|WindowsServer2003-KB958644-x86-ENU.exe|KB958644|2008-4250|MS08-067
-exploit/windows/smb/ms08_067_netapi|Windows Server 2003|Service Pack 2|x64|WindowsServer2003.WindowsXP-KB958644-x64-ENU.exe|KB958644|2008-4250|MS08-067
-exploit/windows/smb/ms08_067_netapi|Windows Server 2003||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
-exploit/windows/smb/ms08_067_netapi|Windows Server 2003||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
-exploit/windows/smb/ms08_067_netapi|Windows Vista|Service Pack 2|x86|Windows6.0-KB958644-x86.msu|KB958644|2008-4250|MS08-067
-exploit/windows/smb/ms08_067_netapi|Windows Vista|Service Pack 2|x64|Windows6.0-KB958644-x64.msu|KB958644|2008-4250|MS08-067
-exploit/windows/smb/ms08_067_netapi|Windows Vista|Service Pack 1|x86|Windows6.0-KB936330-X86-wave0.exe|KB936330||
-exploit/windows/smb/ms08_067_netapi|Windows Vista|Service Pack 1|x64|Windows6.0-KB948465-X64.exe|KB948465||
+exploit/windows/smb/ms08_067_netapi|Windows 2003|SP2|x86|WindowsServer2003-KB958644-x86-ENU.exe|KB958644|2008-4250|MS08-067
+exploit/windows/smb/ms08_067_netapi|Windows 2003|SP2|x64|WindowsServer2003.WindowsXP-KB958644-x64-ENU.exe|KB958644|2008-4250|MS08-067
+exploit/windows/smb/ms08_067_netapi|Windows 2003||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
+exploit/windows/smb/ms08_067_netapi|Windows 2003||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
+exploit/windows/smb/ms08_067_netapi|Windows Vista|SP2|x86|Windows6.0-KB958644-x86.msu|KB958644|2008-4250|MS08-067
+exploit/windows/smb/ms08_067_netapi|Windows Vista|SP2|x64|Windows6.0-KB958644-x64.msu|KB958644|2008-4250|MS08-067
+exploit/windows/smb/ms08_067_netapi|Windows Vista|SP1|x86|Windows6.0-KB936330-X86-wave0.exe|KB936330||
+exploit/windows/smb/ms08_067_netapi|Windows Vista|SP1|x64|Windows6.0-KB948465-X64.exe|KB948465||
 exploit/windows/smb/ms08_067_netapi|Windows Vista||x86|Windows6.0-KB936330-X86-wave0.exe|KB936330||
 exploit/windows/smb/ms08_067_netapi|Windows Vista||x64|Windows6.0-KB936330-X64-wave0.exe|KB936330||
-exploit/windows/smb/ms08_067_netapi|Windows Server 2008|Service Pack 2|x86|Windows6.0-KB958644-x86.msu|KB958644|2008-4250|MS08-067
-exploit/windows/smb/ms08_067_netapi|Windows Server 2008|Service Pack 2|x64|Windows6.0-KB958644-x64.msu|KB958644|2008-4250|MS08-067
-exploit/windows/smb/ms08_067_netapi|Windows Server 2008|Service Pack 1|x86|Windows6.0-KB936330-X86-wave0.exe|KB936330||
-exploit/windows/smb/ms08_067_netapi|Windows Server 2008|Service Pack 1|x64|Windows6.0-KB948465-X64.exe|KB948465||
-exploit/windows/smb/ms08_067_netapi|Windows Server 2008||x86|windows6.1-KB976932-X86.exe|KB976932||
-exploit/windows/smb/ms08_067_netapi|Windows Server 2008||x64|windows6.1-KB976932-X64.exe|KB976932||
-exploit/windows/smb/ms09_050_smb2_negotiate_func_index|Windows Vista|Service Pack 2|x86|Windows6.0-KB975517-x86.msu|KB975517|2009-3103|MS09-050
-exploit/windows/smb/ms09_050_smb2_negotiate_func_index|Windows Vista|Service Pack 2|x64|Windows6.0-KB975517-x64.msu|KB975517|2009-3103|MS09-050
-exploit/windows/smb/ms09_050_smb2_negotiate_func_index|Windows Vista|Service Pack 1|x86|Windows6.0-KB936330-X86-wave0.exe|KB936330||
-exploit/windows/smb/ms09_050_smb2_negotiate_func_index|Windows Vista|Service Pack 1|x64|Windows6.0-KB948465-X64.exe|KB948465||
+exploit/windows/smb/ms08_067_netapi|Windows 2008|SP2|x86|Windows6.0-KB958644-x86.msu|KB958644|2008-4250|MS08-067
+exploit/windows/smb/ms08_067_netapi|Windows 2008|SP2|x64|Windows6.0-KB958644-x64.msu|KB958644|2008-4250|MS08-067
+exploit/windows/smb/ms08_067_netapi|Windows 2008|SP1|x86|Windows6.0-KB936330-X86-wave0.exe|KB936330||
+exploit/windows/smb/ms08_067_netapi|Windows 2008|SP1|x64|Windows6.0-KB948465-X64.exe|KB948465||
+exploit/windows/smb/ms08_067_netapi|Windows 2008||x86|windows6.1-KB976932-X86.exe|KB976932||
+exploit/windows/smb/ms08_067_netapi|Windows 2008||x64|windows6.1-KB976932-X64.exe|KB976932||
+exploit/windows/smb/ms09_050_smb2_negotiate_func_index|Windows Vista|SP2|x86|Windows6.0-KB975517-x86.msu|KB975517|2009-3103|MS09-050
+exploit/windows/smb/ms09_050_smb2_negotiate_func_index|Windows Vista|SP2|x64|Windows6.0-KB975517-x64.msu|KB975517|2009-3103|MS09-050
+exploit/windows/smb/ms09_050_smb2_negotiate_func_index|Windows Vista|SP1|x86|Windows6.0-KB936330-X86-wave0.exe|KB936330||
+exploit/windows/smb/ms09_050_smb2_negotiate_func_index|Windows Vista|SP1|x64|Windows6.0-KB948465-X64.exe|KB948465||
 exploit/windows/smb/ms09_050_smb2_negotiate_func_index|Windows Vista||x86|Windows6.0-KB936330-X86-wave0.exe|KB936330||
 exploit/windows/smb/ms09_050_smb2_negotiate_func_index|Windows Vista||x64|Windows6.0-KB936330-X64-wave0.exe|KB936330||
-exploit/windows/smb/ms09_050_smb2_negotiate_func_index|Windows Server 2008|Service Pack 2|x86|Windows6.0-KB975517-x86.msu|KB975517|2009-3103|MS09-050
-exploit/windows/smb/ms09_050_smb2_negotiate_func_index|Windows Server 2008|Service Pack 2|x64|Windows6.0-KB975517-x64.msu|KB975517|2009-3103|MS09-050
-exploit/windows/smb/ms09_050_smb2_negotiate_func_index|Windows Server 2008|Service Pack 1|x86|Windows6.0-KB936330-X86-wave0.exe|KB936330||
-exploit/windows/smb/ms09_050_smb2_negotiate_func_index|Windows Server 2008|Service Pack 1|x64|Windows6.0-KB948465-X64.exe|KB948465||
-exploit/windows/smb/ms09_050_smb2_negotiate_func_index|Windows Server 2008||x86|windows6.1-KB976932-X86.exe|KB976932||
-exploit/windows/smb/ms09_050_smb2_negotiate_func_index|Windows Server 2008||x64|windows6.1-KB976932-X64.exe|KB976932||
-exploit/windows/smb/ms10_061_spoolss|Windows XP|Service Pack 3|x86|WindowsXP-KB2347290-x86-ENU.exe|KB2347290|2010-2729|MS10-061
-exploit/windows/smb/ms10_061_spoolss|Windows XP|Service Pack 2|x64|WindowsServer2003.WindowsXP-KB2347290-x64-ENU.exe|KB2347290|2010-2729|MS10-061
-exploit/windows/smb/ms10_061_spoolss|Windows XP|Service Pack 2|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
-exploit/windows/smb/ms10_061_spoolss|Windows XP|Service Pack 1|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
+exploit/windows/smb/ms09_050_smb2_negotiate_func_index|Windows 2008|SP2|x86|Windows6.0-KB975517-x86.msu|KB975517|2009-3103|MS09-050
+exploit/windows/smb/ms09_050_smb2_negotiate_func_index|Windows 2008|SP2|x64|Windows6.0-KB975517-x64.msu|KB975517|2009-3103|MS09-050
+exploit/windows/smb/ms09_050_smb2_negotiate_func_index|Windows 2008|SP1|x86|Windows6.0-KB936330-X86-wave0.exe|KB936330||
+exploit/windows/smb/ms09_050_smb2_negotiate_func_index|Windows 2008|SP1|x64|Windows6.0-KB948465-X64.exe|KB948465||
+exploit/windows/smb/ms09_050_smb2_negotiate_func_index|Windows 2008||x86|windows6.1-KB976932-X86.exe|KB976932||
+exploit/windows/smb/ms09_050_smb2_negotiate_func_index|Windows 2008||x64|windows6.1-KB976932-X64.exe|KB976932||
+exploit/windows/smb/ms10_061_spoolss|Windows XP|SP3|x86|WindowsXP-KB2347290-x86-ENU.exe|KB2347290|2010-2729|MS10-061
+exploit/windows/smb/ms10_061_spoolss|Windows XP|SP2|x64|WindowsServer2003.WindowsXP-KB2347290-x64-ENU.exe|KB2347290|2010-2729|MS10-061
+exploit/windows/smb/ms10_061_spoolss|Windows XP|SP2|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
+exploit/windows/smb/ms10_061_spoolss|Windows XP|SP1|x86|WindowsXP-KB936929-SP3-x86-ENU.exe|KB936929||
 exploit/windows/smb/ms10_061_spoolss|Windows XP||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
 exploit/windows/smb/ms10_061_spoolss|Windows XP||x86|sp1aexpress_usa.exe|KB324722||
-exploit/windows/smb/ms10_061_spoolss|Windows Server 2003|Service Pack 2|x86|WindowsServer2003-KB2347290-x86-ENU.exe|KB2347290|2010-2729|MS10-061
-exploit/windows/smb/ms10_061_spoolss|Windows Server 2003|Service Pack 2|x64|WindowsServer2003.WindowsXP-KB2347290-x64-ENU.exe|KB2347290|2010-2729|MS10-061
-exploit/windows/smb/ms10_061_spoolss|Windows Server 2003||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
-exploit/windows/smb/ms10_061_spoolss|Windows Server 2003||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
-exploit/windows/smb/ms10_061_spoolss|Windows Vista|Service Pack 2|x86|Windows6.0-KB2347290-x86.msu|KB2347290|2010-2729|MS10-061
-exploit/windows/smb/ms10_061_spoolss|Windows Vista|Service Pack 2|x64|Windows6.0-KB2347290-x64.msu|KB2347290|2010-2729|MS10-061
-exploit/windows/smb/ms10_061_spoolss|Windows Vista|Service Pack 1|x86|Windows6.0-KB936330-X86-wave0.exe|KB936330||
-exploit/windows/smb/ms10_061_spoolss|Windows Vista|Service Pack 1|x64|Windows6.0-KB948465-X64.exe|KB948465||
+exploit/windows/smb/ms10_061_spoolss|Windows 2003|SP2|x86|WindowsServer2003-KB2347290-x86-ENU.exe|KB2347290|2010-2729|MS10-061
+exploit/windows/smb/ms10_061_spoolss|Windows 2003|SP2|x64|WindowsServer2003.WindowsXP-KB2347290-x64-ENU.exe|KB2347290|2010-2729|MS10-061
+exploit/windows/smb/ms10_061_spoolss|Windows 2003||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
+exploit/windows/smb/ms10_061_spoolss|Windows 2003||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
+exploit/windows/smb/ms10_061_spoolss|Windows Vista|SP2|x86|Windows6.0-KB2347290-x86.msu|KB2347290|2010-2729|MS10-061
+exploit/windows/smb/ms10_061_spoolss|Windows Vista|SP2|x64|Windows6.0-KB2347290-x64.msu|KB2347290|2010-2729|MS10-061
+exploit/windows/smb/ms10_061_spoolss|Windows Vista|SP1|x86|Windows6.0-KB936330-X86-wave0.exe|KB936330||
+exploit/windows/smb/ms10_061_spoolss|Windows Vista|SP1|x64|Windows6.0-KB948465-X64.exe|KB948465||
 exploit/windows/smb/ms10_061_spoolss|Windows Vista||x86|Windows6.0-KB936330-X86-wave0.exe|KB936330||
 exploit/windows/smb/ms10_061_spoolss|Windows Vista||x64|Windows6.0-KB936330-X64-wave0.exe|KB936330||
-exploit/windows/smb/ms10_061_spoolss|Windows Server 2008|Service Pack 2|x86|Windows6.0-KB2347290-x86.msu|KB2347290|2010-2729|MS10-061
-exploit/windows/smb/ms10_061_spoolss|Windows Server 2008|Service Pack 2|x64|Windows6.0-KB2347290-x64.msu|KB2347290|2010-2729|MS10-061
-exploit/windows/smb/ms10_061_spoolss|Windows Server 2008|Service Pack 1|x86|Windows6.0-KB936330-X86-wave0.exe|KB936330||
-exploit/windows/smb/ms10_061_spoolss|Windows Server 2008|Service Pack 1|x64|Windows6.0-KB948465-X64.exe|KB948465||
-exploit/windows/smb/ms10_061_spoolss|Windows Server 2008||x86|windows6.1-KB976932-X86.exe|KB976932||
-exploit/windows/smb/ms10_061_spoolss|Windows Server 2008||x64|windows6.1-KB976932-X64.exe|KB976932||
-exploit/windows/smb/ms10_061_spoolss|Windows 7|Service Pack 1|x86|Windows6.1-KB2347290-x86.msu|KB2347290|2010-2729|MS10-061
-exploit/windows/smb/ms10_061_spoolss|Windows 7|Service Pack 1|x64|Windows6.1-KB2347290-x64.msu|KB2347290|2010-2729|MS10-061
+exploit/windows/smb/ms10_061_spoolss|Windows 2008|SP2|x86|Windows6.0-KB2347290-x86.msu|KB2347290|2010-2729|MS10-061
+exploit/windows/smb/ms10_061_spoolss|Windows 2008|SP2|x64|Windows6.0-KB2347290-x64.msu|KB2347290|2010-2729|MS10-061
+exploit/windows/smb/ms10_061_spoolss|Windows 2008|SP1|x86|Windows6.0-KB936330-X86-wave0.exe|KB936330||
+exploit/windows/smb/ms10_061_spoolss|Windows 2008|SP1|x64|Windows6.0-KB948465-X64.exe|KB948465||
+exploit/windows/smb/ms10_061_spoolss|Windows 2008||x86|windows6.1-KB976932-X86.exe|KB976932||
+exploit/windows/smb/ms10_061_spoolss|Windows 2008||x64|windows6.1-KB976932-X64.exe|KB976932||
+exploit/windows/smb/ms10_061_spoolss|Windows 7|SP1|x86|Windows6.1-KB2347290-x86.msu|KB2347290|2010-2729|MS10-061
+exploit/windows/smb/ms10_061_spoolss|Windows 7|SP1|x64|Windows6.1-KB2347290-x64.msu|KB2347290|2010-2729|MS10-061
 exploit/windows/smb/ms10_061_spoolss|Windows 7||x86|windows6.1-KB976932-X86.exe|KB976932||
 exploit/windows/smb/ms10_061_spoolss|Windows 7||x64|windows6.1-KB976932-X64.exe|KB976932||
+
+##  For All of the Windows 2003 Systems that Fancy themsevles Special
+
+exploit/windows/dcerpc/ms03_026_dcom|Windows .NET Server|SP2|x86|WindowsServer2003-KB823980-x86-ENU.exe|KB823980|2003-0352|MS03-026
+exploit/windows/dcerpc/ms03_026_dcom|Windows .NET Server|SP2|x64|WindowsServer2003-KB823980-ia64-ENU.exe|KB823980|2003-0352|MS03-026
+exploit/windows/dcerpc/ms03_026_dcom|Windows .NET Server||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
+exploit/windows/dcerpc/ms03_026_dcom|Windows .NET Server||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
+exploit/windows/dcerpc/ms07_029_msdns_zonename|Windows .NET Server|SP2|x86|WindowsServer2003-KB935966-x86-ENU.exe|KB935966|2007-1748|MS07-029
+exploit/windows/dcerpc/ms07_029_msdns_zonename|Windows .NET Server|SP2|x64|WindowsServer2003-KB935966-ia64-ENU.exe|KB935966|2007-1748|MS07-029
+exploit/windows/dcerpc/ms07_029_msdns_zonename|Windows .NET Server||x64|WindowsServer2003.WindowsXP-KB935966-x64-ENU.exe|KB935966|2007-1748|MS07-029
+exploit/windows/dcerpc/ms07_029_msdns_zonename|Windows .NET Server||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
+exploit/windows/dcerpc/ms07_029_msdns_zonename|Windows .NET Server||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
+exploit/windows/smb/ms07_029_msdns_zonename|Windows .NET Server|SP2|x86|WindowsServer2003-KB935966-x86-ENU.exe|KB935966|2007-1748|MS07-029
+exploit/windows/smb/ms07_029_msdns_zonename|Windows .NET Server|SP2|x64|WindowsServer2003-KB935966-ia64-ENU.exe|KB935966|2007-1748|MS07-029
+exploit/windows/smb/ms07_029_msdns_zonename|Windows .NET Server||x64|WindowsServer2003.WindowsXP-KB935966-x64-ENU.exe|KB935966|2007-1748|MS07-029
+exploit/windows/smb/ms07_029_msdns_zonename|Windows .NET Server||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
+exploit/windows/smb/ms07_029_msdns_zonename|Windows .NET Server||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
+exploit/windows/smb/ms04_007_killbill|Windows .NET Server|SP2|x86|WindowsServer2003-KB828028-x86-ENU.exe|KB828028|2003-0818|MS04-007
+exploit/windows/smb/ms04_007_killbill|Windows .NET Server|SP2|x64|WindowsServer2003-KB828028-ia64-ENU.exe|KB830344|2003-0818|MS04-007
+exploit/windows/smb/ms04_007_killbill|Windows .NET Server||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
+exploit/windows/smb/ms04_007_killbill|Windows .NET Server||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
+exploit/windows/smb/ms04_011_lsass|Windows .NET Server|SP2|x86|WindowsServer2003-KB835732-x86-ENU.EXE|KB835732|2003-0533|MS04-011
+exploit/windows/smb/ms04_011_lsass|Windows .NET Server|SP2|x64|WindowsServer2003-KB835732-IA64-ENU.EXE|KB835732|2003-0533|MS04-011
+exploit/windows/smb/ms04_011_lsass|Windows .NET Server||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
+exploit/windows/smb/ms04_011_lsass|Windows .NET Server||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
+exploit/windows/smb/ms04_031_netdde|Windows .NET Server|SP2|x86|WindowsServer2003-KB841533-x86-enu.EXE|KB841533|2004-0206|MS04-031
+exploit/windows/smb/ms04_031_netdde|Windows .NET Server|SP2|x64|WindowsServer2003-KB841533-ia64-enu.EXE|KB841533|2004-0206|MS04-031
+exploit/windows/smb/ms04_031_netdde|Windows .NET Server||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
+exploit/windows/smb/ms04_031_netdde|Windows .NET Server||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
+exploit/windows/smb/ms05_039_pnp|Windows .NET Server|SP2|x86|WindowsServer2003-KB899588-x86-ENU.exe|KB899588|2005-1983|MS05-039
+exploit/windows/smb/ms05_039_pnp|Windows .NET Server|SP2|x64|WindowsServer2003.WindowsXP-KB899588-x64-ENU.exe|KB899588|2005-1983|MS05-039
+exploit/windows/smb/ms05_039_pnp|Windows .NET Server||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
+exploit/windows/smb/ms05_039_pnp|Windows .NET Server||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
+exploit/windows/smb/ms06_025_rasmans_reg|Windows .NET Server|SP2|x86|WindowsServer2003-KB911280-v2-x86-ENU.exe|KB911280|2006-2370|MS06-025
+exploit/windows/smb/ms06_025_rasmans_reg|Windows .NET Server|SP2|x64|WindowsServer2003.WindowsXP-KB911280-v2-x64-ENU.exe|KB911280|2006-2370|MS06-025
+exploit/windows/smb/ms06_025_rasmans_reg|Windows .NET Server||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
+exploit/windows/smb/ms06_025_rasmans_reg|Windows .NET Server||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
+exploit/windows/smb/ms06_025_rras|Windows .NET Server|SP2|x86|WindowsServer2003-KB911280-v2-x86-ENU.exe|KB911280|2006-2370|MS06-025
+exploit/windows/smb/ms06_025_rras|Windows .NET Server|SP2|x64|WindowsServer2003.WindowsXP-KB911280-v2-x64-ENU.exe|KB911280|2006-2370|MS06-025
+exploit/windows/smb/ms06_025_rras|Windows .NET Server||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
+exploit/windows/smb/ms06_025_rras|Windows .NET Server||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
+exploit/windows/smb/ms06_040_netapi|Windows .NET Server|SP2|x86|WindowsServer2003-KB921883-v2-x86-ENU.exe|KB921883|2006-3439|MS06-040
+exploit/windows/smb/ms06_040_netapi|Windows .NET Server|SP2|x64|WindowsServer2003.WindowsXP-KB921883-v2-x64-ENU.exe|KB921883|2006-3439|MS06-040
+exploit/windows/smb/ms06_040_netapi|Windows .NET Server||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
+exploit/windows/smb/ms06_040_netapi|Windows .NET Server||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
+exploit/windows/smb/ms06_066_nwapi|Windows .NET Server|SP2|x86|WindowsServer2003-KB923980-x86-ENU.exe|KB923980|2006-4688|MS06-066
+exploit/windows/smb/ms06_066_nwapi|Windows .NET Server||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
+exploit/windows/smb/ms06_066_nwwks|Windows .NET Server|SP2|x86|WindowsServer2003-KB923980-x86-ENU.exe|KB923980|2006-4688|MS06-066
+exploit/windows/smb/ms06_066_nwwks|Windows .NET Server||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
+exploit/windows/smb/ms06_066_nwwks|Windows .NET Server||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
+exploit/windows/smb/ms08_067_netapi|Windows .NET Server|SP2|x86|WindowsServer2003-KB958644-x86-ENU.exe|KB958644|2008-4250|MS08-067
+exploit/windows/smb/ms08_067_netapi|Windows .NET Server|SP2|x64|WindowsServer2003.WindowsXP-KB958644-x64-ENU.exe|KB958644|2008-4250|MS08-067
+exploit/windows/smb/ms08_067_netapi|Windows .NET Server||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
+exploit/windows/smb/ms08_067_netapi|Windows .NET Server||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||
+exploit/windows/smb/ms10_061_spoolss|Windows .NET Server|SP2|x86|WindowsServer2003-KB2347290-x86-ENU.exe|KB2347290|2010-2729|MS10-061
+exploit/windows/smb/ms10_061_spoolss|Windows .NET Server|SP2|x64|WindowsServer2003.WindowsXP-KB2347290-x64-ENU.exe|KB2347290|2010-2729|MS10-061
+exploit/windows/smb/ms10_061_spoolss|Windows .NET Server||x86|WindowsServer2003-KB914961-SP2-x86-ENU.exe|KB914961||
+exploit/windows/smb/ms10_061_spoolss|Windows .NET Server||x64|WindowsServer2003.WindowsXP-KB914961-SP2-x64-ENU.exe|KB914961||

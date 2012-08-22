@@ -16,10 +16,18 @@
 #    You should have received a copy of the GNU General Public License
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-PATCHDB=`./.msfpath`/msf3/data/unsploitable/patches.db
-
-sudo cp unsploitable.rb `./.msfpath`/msf3/plugins/
-sudo cp unsploitable_solo.rb `./.msfpath`/msf3/plugins/
-if [ ! -e `./.msfpath`/msf3/data/unsploitable ]; then
-	sudo ln -s `pwd` `./.msfpath`/msf3/data/unsploitable 2> /dev/null
-fi
+# Let's greet the users...shall we?
+echo "Unsploitable Solo"
+echo "Automatically Patch Metasploitable Vulnerabilities"
+echo "-------------------------------------------------------------"
+echo
+echo "You may need to authenticate, as MSF typical requires administrative rights"
+echo
+echo "Updating Unsploitable..."
+./update.sh
+echo
+echo "Installing Updates..."
+./install.sh
+echo
+echo "Loading Metasploit and Unsploitable..."
+sudo msfconsole -r .unsploitable_solo.rc
