@@ -160,6 +160,7 @@ module Msf
 												:target => h.address,
 												:osver => h.os_name + " " + h.os_flavor,
 												:ospatch => h.os_sp,
+												:ostype => os_type,
 												:hostarch => h.arch,
 												:rank => e[:rank]
 											}
@@ -273,6 +274,7 @@ module Msf
 							missing_patch = {
 								:exploit => e[:exploit],
 								:target => e[:target],
+								:ostype => e[:ostype],
 								:patchfile => final,
 								:kb => kb,
 								:cve => cve,
@@ -294,14 +296,16 @@ module Msf
 			def cmd_unsploit_patch(*args)
 				# Define Options
 				opts = Rex::Parser::Arguments.new(
-					"-s"   => [ true, "Server Where Patches Are Located (HTTP/HTTPS/FTP)"],
+					"-b"   => [ false, "Generate a Batch file instead of the default VBScript"],
 					"-f"   => [ true, "Comma Separated List of IP's and Ranges to Exclude"],
-					"-h"   => [ false, "Command Help"]
+					"-h"   => [ false, "Command Help"],
+					"-s"   => [ true, "Server Where Patches Are Located (HTTP/HTTPS/FTP)"]
 				)
 
 				# Variables
 				patchsrv = nil
 				range = []
+				batch_file = false
 				missing_patches = []
 				basedir = Msf::Config.install_root + "/data/unsploitable/"
 				timestamp = Time.now.to_i
@@ -313,6 +317,8 @@ module Msf
 							patchsrv = val
 						when "-f"
 		                                	range = val.gsub(" ","").split(",")
+						when "-b"
+							batch_file = true
 						when "-h"
 							print_line(opts.usage)
 							return
@@ -331,23 +337,110 @@ module Msf
 				patching_targets = []
 				if missing_patches.length > 0
 					# Sort by rank with highest ranked exploits first
-					missing_patches.sort! { |x, y| y[:target] <=> x[:target] }
+					missing_patches.sort! { |x, y| y[:kb] <=> x[:kb] }
+
+					# Get List of Patch Targets
 					missing_patches.each do |mp|
-						File.open(mp[:target] + "_unsploitable_patcher.bat", 'a') do |file|
-							if (mp[:prereq_file] && mp[:prereq_cmd])
-								file.puts "curl -O #{mp[:prereq_file]}"
-								file.puts "#{mp[:prereq_cmd]}"
-							end
-							patchloc = patchsrv + mp[:patchfile]
-							file.puts "curl -O #{patchloc}"
-							file.puts "#{mp[:patchfile]} /q /z"
-						end
 						patching_targets << mp[:target]
 					end
 					patching_targets = patching_targets.uniq
+
+					# Start Building Patch Scripts
+					missing_patches.each do |mp|
+						if (mp[:ostype] =~ /win/i)
+							if batch_file
+								ext = "bat"
+							else
+								ext = "vbs"
+							end
+							File.open(mp[:target] + "_unsploitable_patcher.#{ext}", 'a') do |file|
+								if (mp[:prereq_file] && mp[:prereq_cmd])
+									if (mp[:prereq_file] =~ /^(ht|f)tp[s]*\:/)
+										prereqloc = mp[:prereq_file]
+										prereq_parts = mp[:prereq_file].split("/")
+										prereqfile = prereq_parts.pop
+									else
+										prereqloc = patchsrv + mp[:prereq_file]
+										prereqfile = mp[:prereq_file]
+									end
+									if batch_file
+										file.puts("curl -O #{prereqloc}")
+										file.puts("#{prereqfile} #{mp[:prereq_cmd]}")
+									else
+										file.puts("strFileURL = \"#{prereqloc}\"")
+										file.puts("strHDLocation = \"#{prereqfile}\"")
+										file.puts("Set objXMLHTTP = CreateObject(\"MSXML2.XMLHTTP\")")
+										file.puts("objXMLHTTP.open \"GET\", strFileURL, false")
+										file.puts("objXMLHTTP.send()")
+										file.puts("If objXMLHTTP.Status = 200 Then")
+										file.puts("Set objADOStream = CreateObject(\"ADODB.Stream\")")
+										file.puts("objADOStream.Open")
+										file.puts("objADOStream.Type = 1")
+										file.puts("objADOStream.Write objXMLHTTP.ResponseBody")
+										file.puts("objADOStream.Position = 0")
+										file.puts("Set objFSO = Createobject(\"Scripting.FileSystemObject\")")
+										file.puts("If objFSO.Fileexists(strHDLocation) Then objFSO.DeleteFile strHDLocation")
+										file.puts("Set objFSO = Nothing")
+										file.puts("objADOStream.SaveToFile strHDLocation")
+										file.puts("objADOStream.Close")
+										file.puts("Set objADOStream = Nothing")
+										file.puts("End if")
+										file.puts("Set objXMLHTTP = Nothing")
+										file.puts("Set oShell = CreateObject(\"WScript.Shell\")")
+										file.puts("strCmd = \"#{prereqfile} #{mp[:prereq_cmd]}\"")
+										file.puts("oShell.Run(strCmd)")
+										file.puts("Set oShell = Nothing")
+									end
+								end
+								if (mp[:patchfile] =~ /^(ht|f)tp[s]*\:/)
+									patchloc = mp[:patchfile]
+									patchfile_parts = mp[:patchfile].split("/")
+									patchfile = patchfile_parts.pop
+								else
+									patchloc = patchsrv + mp[:patchfile]
+									patchfile = mp[:patchfile]
+								end
+								if batch_file
+									file.puts("curl -O #{patchloc}")
+									file.puts("#{patchfile} /q /z")
+								else
+									file.puts("strFileURL = \"#{patchloc}\"")
+									file.puts("strHDLocation = \"#{patchfile}\"")
+									file.puts("Set objXMLHTTP = CreateObject(\"MSXML2.XMLHTTP\")")
+									file.puts("objXMLHTTP.open \"GET\", strFileURL, false")
+									file.puts("objXMLHTTP.send()")
+									file.puts("If objXMLHTTP.Status = 200 Then")
+									file.puts("Set objADOStream = CreateObject(\"ADODB.Stream\")")
+									file.puts("objADOStream.Open")
+									file.puts("objADOStream.Type = 1")
+									file.puts("objADOStream.Write objXMLHTTP.ResponseBody")
+									file.puts("objADOStream.Position = 0")
+									file.puts("Set objFSO = Createobject(\"Scripting.FileSystemObject\")")
+									file.puts("If objFSO.Fileexists(strHDLocation) Then objFSO.DeleteFile strHDLocation")
+									file.puts("Set objFSO = Nothing")
+									file.puts("objADOStream.SaveToFile strHDLocation")
+									file.puts("objADOStream.Close")
+									file.puts("Set objADOStream = Nothing")
+									file.puts("End if")
+									file.puts("Set objXMLHTTP = Nothing")
+									file.puts("Set oShell = CreateObject(\"WScript.Shell\")")
+									file.puts("strCmd = \"#{patchfile} /q /z\"")
+									file.puts("oShell.Run(strCmd)")
+									file.puts("Set oShell = Nothing")
+								end
+							end
+						end
+					end
+
+					# Clean Up and Notify the User
 					patching_targets.each do |pt|
-						newfile = pt + "_unsploitable_patcher_#{timestamp}.bat"
-						File.rename(pt + "_unsploitable_patcher.bat", newfile)
+						if batch_file
+							ext = "bat"
+						else
+							ext = "vbs"
+						end
+						newfile = pt + "_unsploitable_patcher_#{timestamp}.#{ext}"
+						File.rename(pt + "_unsploitable_patcher.#{ext}", newfile)
 						print_good(" #{pt} Patch Script: #{newfile} (Upload and Execute, Delete When Finished)")
 					end
 				else
