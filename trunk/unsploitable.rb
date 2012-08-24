@@ -386,10 +386,10 @@ module Msf
 										file.puts("Set objADOStream = Nothing")
 										file.puts("End if")
 										file.puts("Set objXMLHTTP = Nothing")
-										file.puts("Set oShell = CreateObject(\"WScript.Shell\")")
-										file.puts("strCmd = \"#{prereqfile} #{mp[:prereq_cmd]}\"")
-										file.puts("oShell.Run(strCmd)")
-										file.puts("Set oShell = Nothing")
+										file.puts("Set filesys = CreateObject(\"Scripting.FileSystemObject\")")
+										file.puts("Set filetxt = filesys.OpenTextFile(\"patcher.bat\", 8, True)")
+										file.puts("filetxt.WriteLine(\"#{prereqfile} #{mp[:prereq_cmd]}\")")
+										file.puts("filetxt.Close")
 									end
 								end
 								if (mp[:patchfile] =~ /^(ht|f)tp[s]*\:/)
@@ -423,10 +423,10 @@ module Msf
 									file.puts("Set objADOStream = Nothing")
 									file.puts("End if")
 									file.puts("Set objXMLHTTP = Nothing")
-									file.puts("Set oShell = CreateObject(\"WScript.Shell\")")
-									file.puts("strCmd = \"#{patchfile} /q /z\"")
-									file.puts("oShell.Run(strCmd)")
-									file.puts("Set oShell = Nothing")
+									file.puts("Set filesys = CreateObject(\"Scripting.FileSystemObject\")")
+									file.puts("Set filetxt = filesys.OpenTextFile(\"patcher.bat\", 8, True)")
+									file.puts("filetxt.WriteLine(\"#{patchfile} /q /z\")")
+									file.puts("filetxt.Close")
 								end
 							end
 						end
@@ -436,9 +436,25 @@ module Msf
 					patching_targets.each do |pt|
 						if batch_file
 							ext = "bat"
+							File.open(pt + "_unsploitable_patcher.#{ext}", 'a') do |file|
+								file.puts("pause")
+								file.puts("shutdown -r")
+							end
 						else
 							ext = "vbs"
+							File.open(pt + "_unsploitable_patcher.#{ext}", 'a') do |file|
+								file.puts("Set filesys = CreateObject(\"Scripting.FileSystemObject\")")
+								file.puts("Set filetxt = filesys.OpenTextFile(\"patcher.bat\", 8, True)")
+								file.puts("filetxt.WriteLine(\"pause\")")
+								file.puts("filetxt.WriteLine(\"shutdown -r\")")
+								file.puts("filetxt.Close")
+								file.puts("Set oShell = CreateObject(\"WScript.Shell\")")
+								file.puts("strCmd = \"patcher.bat\"")
+								file.puts("oShell.Run(strCmd)")
+								file.puts("Set oShell = Nothing")
+							end
 						end
+
 						newfile = pt + "_unsploitable_patcher_#{timestamp}.#{ext}"
 						File.rename(pt + "_unsploitable_patcher.#{ext}", newfile)
 						print_good(" #{pt} Patch Script: #{newfile} (Upload and Execute, Delete When Finished)")
